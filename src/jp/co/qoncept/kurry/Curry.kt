@@ -69,3 +69,15 @@ fun <A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R> curry(function: (A, B
 fun <A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S> curry(function: (A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R) -> S): (A) -> (B) -> (C) -> (D) -> (E) -> (F) -> (G) -> (H) -> (I) -> (J) -> (K) -> (L) -> (M) -> (N) -> (O) -> (P) -> (Q) -> (R) -> S {
     return { a -> { b -> { c -> {d -> {e -> { f -> { g -> { h -> { i -> { j -> { k -> { l -> { n -> { o -> { p -> { q -> { r -> { s -> function(a, b, c, d, e, f, g, h, i, j, k, l, n, o, p, q, r, s) } } } } } } } } } } } } } } } } } }
 }
+
+fun <A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T> curry(function: (A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S) -> T): (A) -> (B) -> (C) -> (D) -> (E) -> (F) -> (G) -> (H) -> (I) -> (J) -> (K) -> (L) -> (M) -> (N) -> (O) -> (P) -> (Q) -> (R) -> (S) -> T {
+    return { a -> { b -> { c -> {d -> {e -> { f -> { g -> { h -> { i -> { j -> { k -> { l -> { n -> { o -> { p -> { q -> { r -> { s -> { t -> function(a, b, c, d, e, f, g, h, i, j, k, l, n, o, p, q, r, s, t) } } } } } } } } } } } } } } } } } } }
+}
+
+fun <A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U> curry(function: (A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T) -> U): (A) -> (B) -> (C) -> (D) -> (E) -> (F) -> (G) -> (H) -> (I) -> (J) -> (K) -> (L) -> (M) -> (N) -> (O) -> (P) -> (Q) -> (R) -> (S) -> (T) -> U {
+    return { a -> { b -> { c -> {d -> {e -> { f -> { g -> { h -> { i -> { j -> { k -> { l -> { n -> { o -> { p -> { q -> { r -> { s -> { t -> { u -> function(a, b, c, d, e, f, g, h, i, j, k, l, n, o, p, q, r, s, t, u) } } } } } } } } } } } } } } } } } } } }
+}
+
+fun <A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V> curry(function: (A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U) -> V): (A) -> (B) -> (C) -> (D) -> (E) -> (F) -> (G) -> (H) -> (I) -> (J) -> (K) -> (L) -> (M) -> (N) -> (O) -> (P) -> (Q) -> (R) -> (S) -> (T) -> (U) -> V {
+    return { a -> { b -> { c -> {d -> {e -> { f -> { g -> { h -> { i -> { j -> { k -> { l -> { n -> { o -> { p -> { q -> { r -> { s -> { t -> { u -> { v -> function(a, b, c, d, e, f, g, h, i, j, k, l, n, o, p, q, r, s, t, u, v) } } } } } } } } } } } } } } } } } } } } }
+}
