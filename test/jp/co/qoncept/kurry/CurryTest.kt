@@ -1,6 +1,5 @@
 package jp.co.qoncept.kurry
 
-import curry
 import org.junit.Test
 
 import org.junit.Assert.*
@@ -11,6 +10,9 @@ import org.junit.Assert.*
 class CurryTest {
     @Test
     @Throws(Exception::class)
+    fun testCurry() {
+        assertEquals(curry { a: Int -> a }(1), 1)
+    }
     fun testCurry2() {
         assertEquals(curry { a: Int, b: Int ->
             a + b
