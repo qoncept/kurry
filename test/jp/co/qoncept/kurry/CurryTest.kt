@@ -10,7 +10,7 @@ import org.junit.Assert.*
 class CurryTest {
     @Test
     @Throws(Exception::class)
-    fun testCurry() {
+    fun testCurry1() {
         assertEquals(curry { a: Int -> a }(1), 1)
     }
     fun testCurry2() {
