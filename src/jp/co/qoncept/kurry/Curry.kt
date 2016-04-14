@@ -1,3 +1,5 @@
+package jp.co.qoncept.kurry
+
 fun <A, B> curry(function: (A) -> B): (A) -> B {
     return { a -> function(a) }
 }
