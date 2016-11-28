@@ -3,9 +3,6 @@ package jp.co.qoncept.kurry
 import org.testng.Assert.*
 import org.testng.annotations.Test
 
-/**
- * To work on unit tests, switch the Test Artifact in the Build Variants view.
- */
 class CurryTest {
     @Test
     fun testCurry1() {
