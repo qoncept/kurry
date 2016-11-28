@@ -1,8 +1,7 @@
 package jp.co.qoncept.kurry
 
-import org.junit.Test
-
-import org.junit.Assert.*
+import org.testng.Assert.*
+import org.testng.annotations.Test
 
 /**
  * To work on unit tests, switch the Test Artifact in the Build Variants view.
