@@ -1,4 +1,4 @@
-package jp.co.qoncept.kurry
+package jp.co.qoncept.util
 
 import org.testng.Assert.*
 import org.testng.annotations.Test
