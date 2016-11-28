@@ -1,4 +1,4 @@
-package jp.co.qoncept.kurry
+package jp.co.qoncept.util
 
 fun <A, B> curry(function: (A) -> B): (A) -> B {
     return { a -> function(a) }
